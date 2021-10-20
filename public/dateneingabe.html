@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dateneingabe</title>
+    <link rel="stylesheet" href="styles/dateneingabe.css">
+</head>
+
+<body>
+    <h1>Hier Daten eingeben</h1>
+
+    <table ID='eingabeTabelle'>
+        <tr>
+            <th>Nr.: </th>
+            <th>Name: </th>
+            <th>E-Mail: </th>
+            <th>Datum: </th>
+            <th>Gäste: </th>
+        </tr>        
+    </table>
+    <table>
+        <tr>            
+            <th align="right">
+                <button onclick="addRow()">add Row</button>
+                <button type="submit" onclick="send()">absenden</button>
+            </th>
+        </tr>
+    </table>    
+
+    <script src="/scripts/dateneingabe.js"></script>
+</body>
+
+</html>
